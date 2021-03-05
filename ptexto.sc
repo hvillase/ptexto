@@ -1,5 +1,5 @@
 //===================================//
-// Ptexto: A Pattern for modul list  //
+// Ptexto: A Pattern for modulo list //
 // Author: Hernani Villasenor        //
 //                                   //
 // A list pass through a modulo and  //
@@ -9,10 +9,10 @@
 
 Ptexto : Pattern {
 
-	var <>lista, <>modVal, <>sumVal, <>repeats, <>offset;
+	var <>lista, <>modVal, <>sumVal, <>repeats;
 
-	*new { arg lista, modVal = 1, sumVal = 0, repeats = 1, offset = 0;
-		^super.newCopyArgs(lista, modVal, sumVal, repeats, offset)
+	*new { arg lista, modVal = 1, sumVal = 0, repeats = 1;
+		^super.newCopyArgs(lista, modVal, sumVal, repeats)
 	}
 
 	embedInStream { arg inval;
