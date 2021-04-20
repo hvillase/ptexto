@@ -16,9 +16,13 @@ Ptexto : Pattern {
 	// to embed the values of the list into the stream
 	embedInStream { arg inval;
 		var listVal = lista;
+		var item;
 
 		repeats.do({arg i;
-			inval = (listVal[i % lista.size].mod(modVal) + sumVal).yield;
+	// this line applies the modulo operation to the list values
+			item = (listVal[i % lista.size].mod(modVal) + sumVal);
+	// this line makes possible to nesta a pattern inside Ptexto
+			inval = item.embedInStream(inval);
 		});
 		^inval;
 	}
