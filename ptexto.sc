@@ -21,7 +21,7 @@ Ptexto : Pattern {
 		repeats.do({arg i;
 	// this line applies the modulo operation to the list values
 			item = (listVal[i % lista.size].mod(modVal) + sumVal);
-	// this line makes possible to nesta a pattern inside Ptexto
+	// this line makes possible to nest a pattern inside Ptexto
 			inval = item.embedInStream(inval);
 		});
 		^inval;
