@@ -12,7 +12,7 @@ First write a list of numbers in the pattern array. Thne specify the number that
 ```
 Ptexto([2, 3, 4, 5], 2, 0, inf)
 ```
-##Example
+## Example
 An example with Pdef and default synth.
 ```
 Pdef(\texto, Pbind(
