@@ -23,38 +23,23 @@ A sum to the result of modulo operation if necessary.
 ARGUMENT:: repeats
 Number of repetitions of the pattern.
 
-returns:: Return inval value.
-
 
 INSTANCEMETHODS::
 
 METHOD:: sumVal
-(describe method here)
-
-returns:: (describe returnvalue here)
 
 METHOD:: repeats
-(describe method here)
-
-returns:: (describe returnvalue here)
 
 METHOD:: embedInStream
-(describe method here)
+
 
 ARGUMENT:: inval
-(describe argument here)
 
-returns:: (describe returnvalue here)
 
 METHOD:: lista
-(describe method here)
 
-returns:: (describe returnvalue here)
 
 METHOD:: modVal
-(describe method here)
-
-returns:: (describe returnvalue here)
 
 
 EXAMPLES::
