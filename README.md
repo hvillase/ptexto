@@ -10,7 +10,8 @@ Clone the respository and put it in your SuperCollider Extensions.
 ## How it works
 First write a list of numbers in the pattern array. Then specify the number that makes the modulo operation. You can write a number to sum to the result of the modulo operation just in case is 0. This can be problematic when you apply the pattern to a \dur key. Finally write the length of the pattern.
 ```
-Ptexto([2, 3, 4, 5], 2, 0, inf)
+n=Ptexto([2, 3, 4, 5], 2, 0, inf).asStream;
+n.next;
 ```
 ## Example
 An example with Pdef and default synth.
