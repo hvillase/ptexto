@@ -1,7 +1,7 @@
-//===================================//
-// Ptexto: A Pattern for modulo list //
-// Author: Hernani Villasenor        //
-//===================================//
+//==========================================//
+// Ptexto: A Pattern for a list with modulo //
+// Author: Hernani Villasenor               //
+//==========================================//
 
 Ptexto : Pattern {
 
