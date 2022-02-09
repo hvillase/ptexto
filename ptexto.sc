@@ -18,7 +18,7 @@ Ptexto : Pattern {
 		var listVal = lista;
 		var item;
 
-		repeats.do({arg i;
+		repeats.do({ arg i;
 	// this line applies the modulo operation to the list values
 			item = (listVal[i % lista.size].mod(modVal) + sumVal);
 	// this line makes possible to nest a pattern inside Ptexto
