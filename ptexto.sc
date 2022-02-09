@@ -9,16 +9,16 @@ Ptexto : Pattern {
 	var <>lista, <>modVal, <>sumVal, <>repeats;
 
 	// the constructor
-	*new { arg lista, modVal = 1, sumVal = 0, repeats = 1;
+	*new { |lista, modVal = 1, sumVal = 0, repeats = 1|
 		^super.newCopyArgs(lista, modVal, sumVal, repeats)
 	}
 
 	// to embed the values of the list into the stream
-	embedInStream { arg inval;
+	embedInStream { |inval|
 		var listVal = lista;
 		var item;
 
-		repeats.do({ arg i;
+		repeats.do({ |i|
 	// this line applies the modulo operation to the list values
 			item = (listVal[i % lista.size].mod(modVal) + sumVal);
 	// this line makes possible to nest a pattern inside Ptexto
