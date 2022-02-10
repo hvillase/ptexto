@@ -1,8 +1,3 @@
-//==========================================//
-// Ptexto: A Pattern for a list with modulo //
-// Author: Hernani Villasenor               //
-//==========================================//
-
 Ptexto : Pattern {
 
 	// variables: lista is the array of values, modVal the modulo value, sumVal adds to modulo
