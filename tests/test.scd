@@ -15,3 +15,13 @@
 // Example 3: a Pattern nested inside Ptexto
 ~pt = Ptexto([2.5, 2.25, 3.5, 4.75, Pseq([2, 3, 4, 5])], 2, 0.25, inf).asStream;
 ~pt.next;
+
+// Example 4: rythm
+
+(
+Pdef(\ptexto, Pbind(
+	\instrument, \default,
+	\dur, Ptexto([0.25, 1.5, 1.75], 1, 0.25, inf)
+)).play
+);
+
