@@ -1,6 +1,6 @@
 Ptexto : Pattern {
 
-	// variables: lista is the array of values, modVal the modulo value, sumVal adds to modulo
+	// variables: list is the array of values, modVal the modulo value, sumVal adds to modulo
 	var <>list, <>modVal, <>sumVal, <>repeats;
 
 	// the constructor
