@@ -5,10 +5,10 @@ A pattern for modular lists in SuperCollider.
 This pattern is designed to get the result of the modulo operation from a list of numbers.
 
 ## Installation
-Clone the respository and put it in your SuperCollider Extensions.
+Clone the repository and put it in your SuperCollider Extensions.
 
 ## How it works
-First write a list of numbers in the pattern array. Then specify the number that makes the modulo operation. You can write a number to sum to the result of the modulo operation just in case is 0. Zero is a problematic result when passes to the duration \dur key. Finally write the length of the pattern.
+First, write a list of numbers in the pattern array. Then specify the number that makes the modulo operation. You can write a number to sum to the result of the modulo operation just in case is 0. Zero is a problematic result when passes to the duration \dur key. Finally, write the length of the pattern.
 ```
 n=Ptexto([2, 3, 4, 5], 2, 0, inf).asStream;
 n.next;
