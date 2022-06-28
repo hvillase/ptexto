@@ -3,7 +3,7 @@ summary:: a modulo pattern to values in a list.
 related:: Classes/Buffer, Reference/Pattern
 
 DESCRIPTION::
-This pattern applies the modulo operation to the values of a list. It also allows to sum a number when the result 0 is problematic as in the case of duration.
+This pattern applies the modulo operation to the values of a list. It also allows summing a number when the result 0 is problematic as in the case of duration.
 
 
 CLASSMETHODS::
@@ -12,7 +12,7 @@ METHOD:: new
 Creates an instance of the class.
 
 ARGUMENT:: list
-Contains a list of number to be used in the modulo operation.
+Contains a list of numbers to be used in the modulo operation.
 
 ARGUMENT:: modVal
 The value of the modulo operation.
@@ -21,7 +21,7 @@ ARGUMENT:: sumVal
 A sum to the result of the modulo operation (if necessary).
 
 ARGUMENT:: repeats
-Number of repetitions of the pattern.
+The number of repetitions of the pattern.
 
 
 INSTANCEMETHODS::
