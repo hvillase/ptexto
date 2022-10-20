@@ -6,7 +6,7 @@ related:: Classes/Buffer, Reference/Pattern
 DESCRIPTION::
 This pattern applies the modulo operation to the values of a list. It also allows summing a number when the result 0 is problematic as in the case of duration.
 
-First code examples::
+First code examples:
 
 code::
 ~a=Ptexto([1, 2, 3, 4, 5], 1.5, 0, inf).asStream;
