@@ -18,7 +18,7 @@ Ptexto : Pattern {
 		repeats.do({ |i|
 	// Apply the modulo operation to the list values
 			item = (listVal[i % list.size].mod(modVal) + sumVal);
-	// Make it possible to nest a pattern inside Ptexto
+	// Allows to place the resulting values from Ptexto computation in the pattern stream
 			inval = item.embedInStream(inval);
 		});
 		^inval;
