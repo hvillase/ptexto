@@ -53,6 +53,6 @@ EXAMPLES::
 
 code::
 (
-Pdef(\ptexto, Pbind(\dur, Pseq([1, 2, 3, 4], 1.5, 0.25, inf))).play
-)
+Pdef(\ptexto, Pbind(\dur, Ptexto([1, 2, 3, 4], 1.5, 0.25, inf))).play
+);
 ::
