@@ -1,11 +1,16 @@
 TITLE:: Ptexto
-summary:: a modulo pattern to values in a list.
+summary:: A modulo pattern to values in a list.
 categories:: Undocumented classes
 related:: Classes/Buffer, Reference/Pattern
 
 DESCRIPTION::
 This pattern applies the modulo operation to the values of a list. It also allows summing a number when the result 0 is problematic as in the case of duration.
 
+First code examples::
+
+code::
+~a=Ptexto([1, 2, 3, 4, 5], 1.5, 0, inf).asStream;
+~a.next;
 
 CLASSMETHODS::
 
@@ -46,6 +51,7 @@ METHOD:: modVal
 EXAMPLES::
 
 code::
-~p=Ptexto([2, 3, 4, 5], 2, 0, inf).asStream;
-~p.next;
+(
+Pdef(\ptexto, Pbind(\dur, Pseq([1, 2, 3, 4], 1.5, 0.25, inf))).play
+)
 ::
